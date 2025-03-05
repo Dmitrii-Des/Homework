@@ -6,7 +6,6 @@ def f(n):
         return 4
     if n > 4:
         return 4 * f(n-4)
-
 for i in range(1, 4445):
     f(i)
 
