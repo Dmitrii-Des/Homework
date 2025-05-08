@@ -7,7 +7,6 @@ def f(A):
         if not u:
             return False
     return True
-
 cnt = 0
 
 for A in range(1, 1001):
