@@ -9,8 +9,6 @@ def f2(nums):
     max_nepov = max([i for i in nums if nums.count(i) == 1])
     return max_pov > max_nepov
 
-ans = [7, 7, 7, 2, 2, 2]
-print(len(ans))
 with open('9_21408.txt') as file:
     data = [list(map(int, i.split())) for i in file]
 cnt = 0

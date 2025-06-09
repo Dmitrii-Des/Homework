@@ -5,7 +5,7 @@ def f1(nums):
 def f2(nums):
     pov = [i for i in nums if nums.count(i) != 1]
     nepov = [i for i in nums if nums.count(i) == 1]
-    return sum(pov) // len(pov) < nepov[0]
+    return sum(pov) / len(pov) < nepov[0]
 
 with open('9_19241.txt') as file:
     data = [list(map(int, i.split())) for i in file]
